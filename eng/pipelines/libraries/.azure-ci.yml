@@ -187,3 +187,4 @@ jobs:
             isFullMatrix: ${{ variables['isFullMatrix'] }}
             testScope: innerloop
             framework: netcoreapp
+            dependsOnBuildConfiguration: Debug
